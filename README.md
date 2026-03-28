@@ -1,2 +1,0 @@
-# gympal-privacy
-gympal-privacy

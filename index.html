@@ -1,37 +1,167 @@
-Privacy Policy – GymPal<br>
-<br>
-<br>Last updated: 28/03/2026
-<br>
-<br>GymPal is designed to work offline: your programs and notebook stay on the device. 
-<br>
-<br>Data Collection
-<br>
-<br>Workout-related data (programs, notebook, exercises, notes) is stored only on your device and is not sent to GymPal servers.
-<br>If crash reporting is enabled in the build you installed, the app may send error and stability reports through Sentry (sentry.io): for example stack traces, device model, OS version, and app version. By default, extra personal identifiers are not included.
-<br>
-<br>Crash reporting and diagnostics
-<br>
-<br>Stability reports are processed by Functional Software, Inc. (Sentry) on behalf of the developer. Details:
-<br>https://sentry.io/privacy/
-<br>
-<br>In-app purchases
-<br>
-<br>The app offers in-app purchases to unlock premium features.
-<br>Purchases are handled by Google Play and may involve data collection by Google, according to their privacy policy:
-<br>
-<br>https://policies.google.com/privacy
-<br>
-<br>GymPal does not have access to payment information.
-<br>
-<br>Data Sharing
-<br>
-<br>Your training content is not sold or shared with third parties for marketing. Crash and stability data may be processed by Sentry as described in their privacy policy.
-<br>
-<br>Security
-<br>
-<br>All data remains stored locally on the user’s device.
-<br>
-<br>Contact
-<br>
-<br>For any questions:
-<br>cordellasandrodev9@proton.me
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GymPal — Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green: #4CAF7D; --green-dim: #1a3a28; --green-border: #2d5a3d; --green-text: #3a9e6e;
+    --bg: #0e0e0e; --bg-2: #151515;
+    --border: #232323; --border-2: #2a2a2a;
+    --text-primary: #f0f0f0; --text-secondary: #aaa; --text-muted: #555;
+    --font: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--text-primary); font-family: var(--font); font-size: 15px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+  a { color: var(--green); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .container { max-width: 680px; margin: 0 auto; padding: 0 24px; }
+
+  /* NAV */
+  nav { border-bottom: 1px solid var(--border); background: rgba(14,14,14,0.92); backdrop-filter: blur(12px); position: sticky; top: 0; z-index: 100; }
+  .nav-inner { display: flex; align-items: center; gap: 10px; padding: 14px 24px; max-width: 680px; margin: 0 auto; }
+  .nav-logo-icon { width: 28px; height: 28px; background: var(--green); border-radius: 7px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .nav-logo-icon svg { width: 14px; height: 14px; }
+  .nav-logo-name { font-size: 15px; font-weight: 700; color: var(--text-primary); letter-spacing: -0.2px; }
+  .nav-badge { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: var(--green); background: var(--green-dim); border: 1px solid var(--green-border); border-radius: 5px; padding: 2px 7px; }
+
+  /* DOCUMENT HEADER */
+  .doc-header { padding: 56px 0 40px; border-bottom: 1px solid var(--border); margin-bottom: 48px; }
+  .doc-eyebrow { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 12px; }
+  .doc-header h1 { font-size: clamp(26px, 5vw, 36px); font-weight: 800; letter-spacing: -0.6px; line-height: 1.15; margin-bottom: 16px; }
+  .doc-meta { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+  .doc-meta-item { font-size: 13px; color: var(--text-muted); }
+  .doc-meta-item strong { color: var(--text-secondary); font-weight: 500; }
+  .doc-meta-sep { width: 3px; height: 3px; background: var(--border-2); border-radius: 50%; }
+
+  /* SUMMARY BAR */
+  .summary-bar { background: var(--bg-2); border: 1px solid var(--green-border); border-left: 3px solid var(--green); border-radius: 0 8px 8px 0; padding: 14px 18px; margin-bottom: 48px; }
+  .summary-bar p { font-size: 13px; color: var(--green-text); line-height: 1.6; }
+  .summary-bar strong { color: var(--green); font-weight: 600; }
+
+  /* DOCUMENT BODY */
+  .doc-body { padding-bottom: 64px; }
+
+  .doc-section { margin-bottom: 44px; }
+  .doc-section h2 { font-size: 17px; font-weight: 700; color: var(--text-primary); letter-spacing: -0.2px; margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+  .doc-section p { font-size: 14px; color: var(--text-secondary); line-height: 1.75; margin-bottom: 10px; }
+  .doc-section p:last-child { margin-bottom: 0; }
+  .doc-section ul { margin: 10px 0 10px 4px; display: flex; flex-direction: column; gap: 6px; }
+  .doc-section ul li { font-size: 14px; color: var(--text-secondary); line-height: 1.65; padding-left: 16px; position: relative; }
+  .doc-section ul li::before { content: ''; position: absolute; left: 0; top: 9px; width: 5px; height: 5px; background: var(--text-muted); border-radius: 50%; }
+
+  .external-ref { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; color: var(--green-text); background: var(--green-dim); border: 1px solid var(--green-border); border-radius: 5px; padding: 2px 9px; margin-top: 2px; }
+  .external-ref svg { width: 10px; height: 10px; stroke: var(--green-text); flex-shrink: 0; }
+
+  /* CONTACT */
+  .contact-section { border-top: 1px solid var(--border); padding-top: 36px; margin-bottom: 56px; }
+  .contact-section h2 { font-size: 17px; font-weight: 700; color: var(--text-primary); margin-bottom: 10px; }
+  .contact-section p { font-size: 14px; color: var(--text-secondary); margin-bottom: 14px; }
+
+  footer { border-top: 1px solid var(--border); padding: 24px 0; text-align: center; font-size: 12px; color: var(--text-muted); }
+
+  @media (max-width: 540px) {
+    .doc-header { padding: 40px 0 32px; }
+    .nav-inner { padding: 12px 16px; }
+    .container { padding: 0 16px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#0a2016" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg>
+    </div>
+    <span class="nav-logo-name">GymPal</span>
+    <span class="nav-badge">Beta</span>
+  </div>
+</nav>
+
+<div class="container">
+
+  <header class="doc-header">
+    <div class="doc-eyebrow">Legal</div>
+    <h1>Privacy Policy</h1>
+    <div class="doc-meta">
+      <div class="doc-meta-item">Last updated: <strong>March 28, 2026</strong></div>
+      <div class="doc-meta-sep"></div>
+      <div class="doc-meta-item">Developer: <strong>Sandro Cordella</strong></div>
+    </div>
+  </header>
+
+  <div class="summary-bar">
+    <p><strong>Short version:</strong> GymPal is designed to work offline. Your workout programs, exercises and notebook entries are stored only on your device and never sent to GymPal servers.</p>
+  </div>
+
+  <div class="doc-body">
+
+    <div class="doc-section">
+      <h2>1. Data Collection</h2>
+      <p>Workout-related data — including programs, exercises, notebook entries and notes — is stored exclusively on your device. This data is not transmitted to or processed by any GymPal server.</p>
+      <p>If crash reporting is enabled in the build you installed, the app may send error and stability reports through Sentry (sentry.io). These reports may include:</p>
+      <ul>
+        <li>Stack traces and error logs</li>
+        <li>Device model and operating system version</li>
+        <li>App version</li>
+      </ul>
+      <p>No additional personal identifiers are included in these reports by default.</p>
+    </div>
+
+    <div class="doc-section">
+      <h2>2. Crash Reporting & Diagnostics</h2>
+      <p>Stability reports are processed by Functional Software, Inc. (Sentry) on behalf of the developer. Sentry acts as a data processor and handles this data in accordance with their own privacy policy.</p>
+      <p>
+        <a class="external-ref" href="https://sentry.io/privacy/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          sentry.io/privacy
+        </a>
+      </p>
+    </div>
+
+    <div class="doc-section">
+      <h2>3. In-App Purchases</h2>
+      <p>GymPal offers in-app purchases to unlock premium features. All transactions are handled entirely by Google Play and may involve data collection by Google according to their privacy policy.</p>
+      <p>
+        <a class="external-ref" href="https://policies.google.com/privacy" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          Google Privacy Policy
+        </a>
+      </p>
+      <p>GymPal does not have access to any payment information entered during a purchase.</p>
+    </div>
+
+    <div class="doc-section">
+      <h2>4. Data Sharing</h2>
+      <p>Your training content is not sold or shared with third parties for marketing purposes.</p>
+      <p>Crash and stability data may be processed by Sentry as described in Section 2. No other third-party data sharing takes place.</p>
+    </div>
+
+    <div class="doc-section">
+      <h2>5. Security</h2>
+      <p>All training data remains stored locally on your device. GymPal does not operate servers that store personal user data, so there is no central database that could be subject to a breach.</p>
+    </div>
+
+    <div class="contact-section">
+      <h2>Contact</h2>
+      <p>For any questions or concerns regarding this privacy policy, please get in touch:</p>
+      <a href="mailto:cordellasandrodev9@proton.me?subject=GymPal%20Privacy">cordellasandrodev9@proton.me</a>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <div class="container">
+    GymPal — Privacy Policy &nbsp;&middot;&nbsp; Last updated March 28, 2026
+  </div>
+</footer>
+
+</body>
+</html>
